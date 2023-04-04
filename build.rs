@@ -4,8 +4,6 @@ use std::path::PathBuf;
 use bindgen::CargoCallbacks;
 
 fn main() {
-    let search_path = env::var("VJOY_SEARCH_DIR").unwrap_or("C:/Program Files/vJoy/x64".to_string());
-    println!("cargo:rustc-link-search={}", search_path);
     println!("cargo:rustc-link-lib[KIND:dylib]=vJoyInterface");
     println!("cargo:rerun-if-changed=vjoy/wrapper.h");
 
