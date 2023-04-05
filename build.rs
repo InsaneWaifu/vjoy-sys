@@ -1,7 +1,7 @@
 extern crate bindgen;
+use bindgen::CargoCallbacks;
 use std::env;
 use std::path::PathBuf;
-use bindgen::CargoCallbacks;
 
 fn main() {
     println!("cargo:rustc-link-lib[KIND:dylib]=vJoyInterface");

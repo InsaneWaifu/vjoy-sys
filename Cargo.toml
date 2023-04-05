@@ -1,6 +1,6 @@
 [package]
 name = "vjoy-sys"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Maximillian Pfeil <pfeil.maximillian@gmail.com>"]
 description = "Rust bindings to vJoy - a virtual input device driver for Windows"
@@ -16,3 +16,7 @@ libloading = "0.7.4"
 
 [build-dependencies]
 bindgen = "0.64.0"
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]
