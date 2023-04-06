@@ -1,6 +1,6 @@
 [package]
 name = "vjoy-sys"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Maximillian Pfeil <pfeil.maximillian@gmail.com>"]
 description = "Rust bindings to vJoy - a virtual input device driver for Windows"

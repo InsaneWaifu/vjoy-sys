@@ -15,4 +15,4 @@ The [vJoy driver](https://sourceforge.net/projects/vjoystick/) needs to be insta
 The vJoy shared library is loaded at runtime via libloading. See the [sanity test](tests/test.rs) for specifics.
 
 # Updating bindings
-For a new version of vJoy, the header files in /vjoy have be replaced and may have to be modified (e.g. search and replace "BOOL" with "int", insert "enum" keyword, etc.) to work with bindgen - as of this verison the original C headers resulted in various bindgen errors during build.
+For a new version of vJoy, the header files in /vjoy have be replaced and may have to be modified (e.g. search and replace "BOOL" with "int", insert "enum" keyword, remove unused includes etc.) to work with bindgen - as of this verison the original C headers resulted in various bindgen errors during build.
