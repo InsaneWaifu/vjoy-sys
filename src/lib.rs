@@ -3,6 +3,9 @@
 #![allow(non_snake_case)]
 #![allow(clippy::missing_safety_doc)]
 
+pub const AXES_DISPLAY_NAMES: [&str; 8] = ["X", "Y", "Z", "Rx", "Ry", "Rz", "Slider", "Dial/Slider2"];
+pub const AXES_HID_USAGE: [u32; 8] = [0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37];
+
 #[cfg(target_os = "windows")]
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 

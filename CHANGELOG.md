@@ -1,5 +1,7 @@
+## [0.2.0] 4-way hat switch support
+
 ## [0.1.2] Rustdoc patch
-- Fixed: Removed unused and unincluded header filed for GUID operations.
+- Fixed: Removed unused and unincluded header files for GUID operations.
 - Added: Hint that this lib is Windows-only
 
 ## [0.1.1] Rustdoc patch
