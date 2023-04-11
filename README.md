@@ -1,5 +1,5 @@
 ## vjoy-sys
-Rust bindings to [vJoy](https://sourceforge.net/projects/vjoystick/) via bindgen.
+Rust bindings to [vJoy](https://github.com/njz3/vJoy/) via bindgen.
 Built against version 2.2.1.1.
 
 ## About vJoy
