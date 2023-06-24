@@ -1,3 +1,6 @@
+## [0.4.1] Rustdoc patch
+- Fixed: Broken docs link inside readme.
+
 ## [0.4.0] Windows 11 compatibility
 - Changed: Most recent supported version of vJoy for Win 11 is 2.1.9.1.
 - Changed: This version only supports up to 8 axes per device.
