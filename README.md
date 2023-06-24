@@ -1,5 +1,5 @@
 [<img alt="Crates.io" src="https://img.shields.io/crates/v/vjoy-sys">](https://crates.io/crates/vjoy-sys)
-[<img alt="docs.rs" src="https://img.shields.io/docsrs/vjoy-sys">](https://docs.rs/vjoy/latest/vjoy-sys/)
+[<img alt="docs.rs" src="https://img.shields.io/docsrs/vjoy-sys">](https://docs.rs/vjoy-sys/latest)
 <img alt="Crates.io" src="https://img.shields.io/crates/l/vjoy-sys">
 
 ## vjoy-sys
